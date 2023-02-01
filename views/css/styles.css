@@ -1,0 +1,1081 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgba(0,0,0,.05);
+}
+
+label {
+    font-size: small;
+}
+
+input {
+    border: 0.0625rem solid #efefef;
+    outline: none;
+    height: 40px;
+}
+
+select {
+    border: 0.0625rem solid #efefef;
+    outline: none;
+    height: 40px;
+}
+
+hr {
+    background-color: #efefef;
+}
+
+h3 {
+    font-size: medium;
+}
+
+.save {
+    width: 40% !important;
+    margin-left: 30% !important;
+    background-color: #FFD400 !important;
+    cursor: pointer;
+}
+
+/*ESTILOS HEADER*/
+
+.info-general p, li.li-info-user, a.a-info-user, li.li-search, a.a-search{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header nav {
+    width: 100%;
+    background: -webkit-linear-gradient(left, #FFD400, yellow, #FFFF99 );
+}
+
+.info-general {
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.social-allshop {
+    width: 50%;
+    margin-left: 10%;
+    display: flex;
+}
+
+.social-allshop i {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.info-user {
+    width: 50%;
+}
+
+.ul-info-user {
+    width: 100%;
+    display: flex;
+}
+
+.ul-info-user li {
+    margin-left: 3%;
+}
+
+li.li-info-user img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -23px;
+    margin-top: -1px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+li.perfil:hover > .ul-admin {
+    display: block;
+}
+
+.ul-admin {
+    position: absolute;
+    width: 115px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 23%;
+    background-color: white;
+}
+
+.allshop-section-header {
+    width: 100%;
+    height: 105px; 
+    display: flex;
+}
+
+.logo-allshop {
+    width: 20%;
+    margin-left: 10%;
+}
+
+.logo-allshop a {
+    display: flex;
+    text-decoration: none;
+    width: 50%;
+}
+
+.logo-allshop a h2 {
+    color: #ffffff;
+    height: 50%;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+
+.search-header {
+    width: 50%;
+}
+
+.search-input {
+    width: 80%;
+    height: 40%;
+    margin-top: 15px;
+    background-color: #ffffff;
+}
+
+.search-input form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.search-input input {
+    width: 100%;
+    height: 100%;
+}
+
+.search-input button {
+    width: 50px;
+    background-color: #ffff00;
+    border-style: none;
+    cursor: pointer;
+}
+
+.ul-search {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+}
+
+.ul-search li {
+    margin-left: 10px;
+}
+
+.cart {
+    width: 10%;
+    height: 70%;
+    align-items: center;
+    text-align: center;
+}
+
+.cart i {
+    font-size: 50px;
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+/*ESTILOS LOGIN Y REGISTRO*/
+/*ESTILOS HEADER FORM*/
+
+.help-header {
+    width: 280px;
+    margin-left: 25%;
+}
+
+.help-header a {
+    margin-top: 17.5%;
+}
+
+.section-form {
+    width: 100%;
+    height: 500px;
+}
+
+.container-form {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    display: flex;
+}
+
+.column-form {
+    width: 50%;
+    height: 100%;
+    align-items: center;
+}
+
+.logo-form {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-form img {
+    margin-top: 25%;
+    width: 30%;
+}
+
+.logo-form h2 {
+    font-size: 40px;
+}
+
+.logo-form h3 {
+    font-size: 15px;
+}
+
+.form {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    background: -webkit-linear-gradient(left, #FFD400, yellow, #FFFF99 );
+}
+
+.form form {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.form-p {
+    width: 100%;
+    height: 50px;
+}
+
+.form-p p{
+    position: absolute;
+    margin-top: 40px;
+}
+
+.form-inputs {
+    height: 65%;
+}
+
+.form-inputs input {
+    width: 100%;
+    height: 25px;
+    margin-top: 7.5%;
+}
+
+.btn-form {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.form-inputs a {
+    margin-top: 20px;
+    position: absolute;
+}
+
+.hr-form {
+    width: 100%;
+    height: 1px;
+    background-color: #808080a8;
+}
+
+.final-section-form {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/*ESTILOS DEL ARCHIVO index.php*/
+/*ESTILOS DEL SLIDER*/
+
+.container-slider {
+    width: 49%; margin-left: 1%
+}
+
+.slider-bg {
+    width: 100%;
+    height: 300px;
+    margin-top: 175px;
+}
+
+.slider-bg-content {
+    width: 90%;
+    height: 80%;
+    margin-left: 5%;
+    margin-top: 50px;
+    display: flex;
+    border-style: double;
+}
+
+.container-slider img {
+    width: 100%; height: 100%; object-fit: cover;
+}
+
+#container-slider .arrowPrev, #container-slider .arrowNext{
+    font-size: 25px;
+    color: rgba(247, 242, 5, 0.92);
+    cursor: pointer;
+    position: absolute;
+    top: 43%;
+    left: 85px;
+    z-index: 2;
+}
+#container-slider .arrowNext {
+    left: 47.6%;
+    right: 50px !important;
+}
+.listslider {
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 30%;
+    top: 25%;
+    bottom: 5%;
+    list-style: none;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+.listslider li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.listslider li a {
+    background: #CCC;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#slider li {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute !important;
+    width: 44%;
+    height: 241px;
+    display: block;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.item-select-slid {
+    background: #FFF  !important;
+}
+
+.bg-double {
+    height: 100%; width: 49%; margin-left: 1%
+}
+
+.bg-doble-one {
+    width: 100%; height: 49%; margin-top: 0%;
+}
+
+.bg-doble-one img {
+    width: 100%; height: 100%; object-fit: cover;
+}
+
+.bg-double-two {
+    width: 100%; height: 49%; margin-top: 1%;
+}
+
+.bg-double-two img {
+    width: 100%; height: 100%; object-fit: cover;
+}
+
+/*ESTILOS BG*/
+
+.row-bg-double:nth-child(1) {
+    width: 100%;
+    height: 49%; 
+    margin-top: 0%;
+}
+
+.row-bg-double:nth-child(2) {
+    width: 100%;
+    height: 49%;
+    margin-top: 1%;
+}
+
+.row-bg-double img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+/*ESTILOS SECCION CATEGORIAS*/
+
+.categories {
+    width: 100%;
+}
+
+.section-title {
+    width: 80%;
+    margin-left: 7.5%;
+    margin-bottom: 15px;
+}
+
+.section-title h2 {
+    font-size: 20px;
+    color: #FFD400;
+}
+
+.container-categories {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.row-categories {
+    width: 100%;
+    height: 150px;
+    display: flex;
+}
+
+.column-categories {
+    width: 10%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    border: 1px solid rgba(0,0,0,.09);
+    text-align: center;
+    background-color: #fff;
+    display: block;
+    position: relative;
+    transition: transform .1s cubic-bezier(.4,0,.6,1),box-shadow .1s cubic-bezier(.4,0,.6,1);
+    transition: all 1s;
+}
+
+.column-categories:hover {
+    border: 1px solid #000000;
+}
+
+.column-categories a {
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    font-size: 13px;
+}
+
+.container-info-column-cat {
+    margin-top: 10px;
+}
+
+.container-img-column-cat {
+    width: 100%;
+}
+
+.container-img-column-cat img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title-column-categories {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+/*ESTLOS DEL ARCHIVO infoCat.php*/
+/*Info categorias*/
+
+.info-cat-footer {
+    margin-top: 300px;
+}
+
+/*ESTLOS DEL ARCHIVO contrySeller.php*/
+.contry-section {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+    text-align: justify;
+}
+
+.container-form-contry {
+    background-color: #ffff;
+    width: 1000%;
+}
+
+.container-info-form-contry-company {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.container-title-contry hr {
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+}
+
+.form-contry-company {
+    margin-top: 20px;
+}
+
+.form-contry-company select {
+    width: 100%;
+    height: 35px;
+}
+
+.form-contry-company p {
+    font-size: 12.5px;
+}
+
+.form-contry-company input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container_questions_contry {
+    margin-left: 5%;
+    width: 300%;
+}
+
+.container_questions_contry h3 {
+    font-size: medium;
+    color: rgb(61, 58, 58);
+}
+
+.title_questions_contry {
+    width: 100%;
+    margin-bottom: 7.5px;
+}
+
+.container_questions_contry hr {
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+}
+
+.question {
+    width: 100%;
+    margin-top: 7.5px;
+}
+
+p.p-questions {
+    font-size: 12.5px;
+}
+
+.p-reply {
+    font-size: 10px;
+    color: rgb(112, 111, 111);
+}
+
+/*ESTILOS DE ARCHIVO typeCompany.php*/
+
+.section-type-company {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.alert-type-company {
+    width: 100%;
+    height: 175px;
+    margin-top: 10%;
+    background-color: rgb(177, 231, 245);
+}
+
+.container-alert {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+}
+
+.alert-icon {
+    margin-top: 50px;
+}
+
+.alert-icon i {
+    font-size: 45px;
+}
+
+.alert-text {
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.alert-text p:nth-child(2) {
+    margin-top: 25px;
+    color: #ff0000;
+}
+
+.container-particular {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.info-particular {
+    width: 40%;
+    margin-left: 10%;
+}
+
+.info-particular input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.container-other-type {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.container-other-type label {
+    font-size: 15px;
+}
+
+.info-other-type input{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.checkbox-type-company {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.checkbox-type-company p{
+    font-size: 11.5px;
+    margin-left: 7.5px;
+    width: 140%;
+}
+
+.input-type-company {
+    margin-top: 20px;
+}
+
+/*Estilos DE ARCHIVO datesSeller.php*/
+
+.section-nums-dates-seller {
+    width: 60%;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 15%;    
+}
+
+.container-dates-seller-numbers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container-numbers {
+    width: 20%;
+    margin-left: 5%;
+}
+
+.numbers {
+    text-align: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 1px #000;
+}
+
+.check {
+    background-color: #FFD400;
+}
+
+.n {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+
+.text-numbers p {
+    font-size: 12.5px;
+    margin-top: 7.5px;
+}
+
+.form-seller {
+    margin-top: 20px;
+}
+
+.name{
+    width: 100%;
+}
+
+.p-name {
+    font-size: 12.5px;
+    margin-top: 10px;
+}
+
+.row-info {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.column-info {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.column-info:nth-child(1) select {
+    width: 100%;
+}
+
+.next {
+    margin-top: 105px !important;
+    margin-bottom: 15px;
+}
+
+.column-info:nth-child(2) select {
+    width: 30%;
+}
+
+.select-contry{
+    margin-top: 10px;
+}
+
+.column-info input {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*ESTILOS DEL ARCHIVO paymentsSeller.php*/
+
+.text-information-seller {
+    width: 100%;
+    height: 150px;
+    margin-top: 15px;
+    background-color: rgb(177, 231, 245);
+}
+
+.info-payments-seller {
+    width: 90%;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.title-information-seller {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.text-information-seller h3 {
+    font-size: medium;
+}
+
+.text p {
+    font-size: small;
+    color: rgb(61, 58, 58);
+}
+
+.info-cart {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.info-cart input {
+    width: 100%;
+}
+
+.info-cart:nth-child(1) {
+    display: flex;
+}
+
+.column-info-cart {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.column-info-cart select {
+    width: 45%;
+}
+
+.next-p {
+    margin-top: 20px !important;
+}
+
+/*ESTILOS DEL ARCHIVO storeInfoSeller.php*/
+
+.cart-radios {
+    width: 100%;
+    margin-top: 12.5px;
+    display: flex;
+}
+
+.cart-radios input {
+    margin-left: 10%;
+}
+
+.cart-radios label {
+    margin-top: 9px;
+    margin-left: 5px;
+}
+
+
+/*ESTILOS DEL ARCHIVO checkSeller.php*/
+
+.table-dates-seller {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+} 
+
+.table-dates-seller tbody td {
+    height: 40px;
+}
+
+.container-checkbox-check {
+    width: 60%;
+    margin-left: 30%;
+    display: flex;
+    text-align: justify;
+}
+.checkbox-ckeck {
+    margin-top: -12px;
+}
+
+.container-checkbox-check p {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.container-checkbox-check strong {
+    color: #ff0000;
+}
+
+/*ESTILOS DEL ARCHIVO nav-profile.php*/
+
+.nav-profile {
+    margin-top: 150px;
+    width: 10%;
+    position: absolute;
+}
+
+/*ESTILOS DEL ARCHIVO profile.php*/
+
+.profile-container {
+    width: 70%;
+    height: 450px;
+    margin-left: 15%;
+    margin-top: 150px;
+    background-color: #ffff;
+}
+
+.title-profile {
+    width: 80%;
+    margin-left: 10%;
+    height: 75px;
+    border-bottom: 0.0625rem solid #efefef;
+}
+
+.titlep {
+    position: absolute;
+    margin-top: 25px;
+}
+
+.titlep h3 {
+    font-size: medium;
+}
+
+.titlep p {
+    font-size: small;
+    color: #808080a8;
+}
+
+.form-profile {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.column-form-profile:nth-child(1) {
+    width: 70%;
+    height: 100%;
+}
+
+.form-profile-info {
+    width: 70%;
+    height: 90%;
+    margin-top: 7.5%;
+    margin-left: 15%;
+}
+
+.container-items-form {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.form-profile label {
+    font-size: small;
+}
+
+.form-profile-info input {
+    margin-top: -12.5px;
+    margin-left: 10px;
+    width: 70%;
+    border: 0.0625rem solid #efefef;
+    outline: none;
+}
+
+.form-profile select {
+    margin-top: -12.5px;
+    margin-left: 10px;
+    border: 0.0625rem solid #efefef;
+    outline: none;
+}
+
+.container-items-form p {
+    margin-left: 15px;
+}
+
+.container-items-form a {
+    margin-left: 15px;
+}
+
+.column-form-profile:nth-child(2) {
+    width: 30%;
+    height: 70%;
+    margin-top: 5%;
+    border-left: 0.0625rem solid #efefef; 
+}
+
+.profile-user {
+    width: 100%;
+}
+
+.panel-profile {
+    width: 40%;
+    height: 115px;
+    margin-left: 30%;
+    margin-top: 25px;
+}
+
+.panel-profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.file-container {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-top: 15px;
+}
+
+.file-box {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: -webkit-linear-gradient(left, #FFD400, yellow, #FFFF99 );
+    text-align: center;
+    cursor: pointer;
+}
+
+.file-box svg {
+    margin-top: 10px;
+}
+
+#file {
+    display: none;
+}
+
+.text-sizwe-arch {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.text-sizwe-arch p {
+    font-size: 12.5px;
+    margin-top: 2.5px;
+    color: #808080a8;
+}
+
+/*ESTILOS FOOTER*/
+
+footer {
+    width: 100%;
+}
+
+.info-final-allshop {
+    width: 80%;
+    margin-left: 16%;
+    margin-top: 50px;
+    display: flex;
+}
+
+.column-info-final {
+    width: 33.333%;
+}
+
+.title-column {
+    margin-top: 10px;
+}
+
+.title-column p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.ul-column-info-final {
+    margin-top: 10px;
+}
+
+.ul-column-info-final li {
+    margin-top: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.ul-column-info-final a {
+    text-decoration: none;
+    color: #808080a8;
+    transition: all .5s;
+}
+
+.ul-column-info-final a:hover {
+    color: #FFD400;
+}
+
+.copyright {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 12px;
+    margin-top: 10px;
+}

@@ -1,0 +1,191 @@
+/*Estilos del menu lateral del dashboard*/
+nav.dash {
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    position: absolute;
+    background: -webkit-linear-gradient(left, #FFD400, yellow, #FFFF99 );
+}
+
+.nav-head {
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.photo-admin-mav {
+    width: 25%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.photo-admin-mav img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info-admin-nav {
+    margin-left: 5%;
+}
+
+.info-admin-nav h2 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+/*Estilos de actualizacion de fondos en dashboard*/
+
+.form-bg {
+    margin-left: 22%;
+    margin-top: 50px;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+
+.invoiceBox > input {
+    display: none;
+}
+
+.row {
+    width: 70px;
+}
+
+.invoiceBox {
+    width: 100%;
+}
+
+.boxFile {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid grey;
+    background: #fff;
+    color: grey;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.boxFile:hover {
+    cursor: pointer;
+    background: grey;
+    color: #fff;
+}
+.boxFile i {
+    display: block;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+.attached,
+.attached:hover,
+.attached:focus {
+    background: green;
+  color: #fff;
+  border: 1px solid green;
+}
+
+.panel-bg {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 50px;
+    width: 75%;
+    height: 550px;
+}
+
+.panel-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn-bg {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 100px;
+    height: 38px;
+    cursor: pointer;
+    border-style: none;
+    background-color: #FFD400;
+}
+
+/*Categorias*/
+
+.container-add-category {
+    position: absolute;
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.container-add-category form {
+    width: 70%;
+    margin-left: 15%;
+    background-color: black;
+    text-align: center;
+}
+
+.container-add-category label {
+    color: #ffff;
+}
+
+.file-category {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.btn-category {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*Tabla de categorias*/
+
+table {
+    margin-left: 25%;
+    width: 70%;
+    border: 1px solid #0000;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #000;
+    height: 150px;
+}
+
+th {
+    border: 1px solid #000;
+}
+
+thead th:nth-child(1) {
+    width: 20%;
+}
+
+thead th:nth-child(2) {
+    width: 50%;
+}
+
+tbody td:nth-child(2) {
+    text-align: justify;
+    font-size: 12px;
+}
+
+.btn-actions {
+    width: 70px;
+    height: 30px;
+}
+
+.btn-actions:nth-child(1) {
+    background-color: #FFD400;
+}
+
+.btn-actions:nth-child(2) {
+    background-color: #ff0000;
+}

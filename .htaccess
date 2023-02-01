@@ -1,0 +1,27 @@
+Options All -indexes
+Options +FollowSymLinks
+RewriteEngine On
+
+
+RewriteRule   ^category/([0-9]+)/(.*)$              views/infoCat.php?id=$1&titulo=$2    
+RewriteRule   ^user/register$                       views/register.php
+RewriteRule   ^user/login$                          views/login.php
+RewriteRule   ^user/seller$                         views/sellers/seller.php
+RewriteRule   ^user/admin$                         views/admin/admin.php
+RewriteRule   ^user/profile$                        views/profile.php
+
+#SELLERS - VENDEDORES
+
+RewriteRule   ^user/seller/contry$                  views/sellers/contrySeller.php
+RewriteRule   ^user/seller/contry/company$          views/sellers/typeCompany.php
+RewriteRule   ^user/seller/phone$                   views/sellers/sellerPhone.php
+RewriteRule   ^user/seller/contry/company/info-seller$     views/sellers/dataSeller.php
+RewriteRule   ^user/seller/contry/company/name-seller$     views/sellers/nameSeller.php
+RewriteRule   ^user/seller/contry/company/payments-seller$     views/sellers/paymentsSeller.php
+RewriteRule   ^user/seller/contry/company/store-seller$     views/sellers/storeInfoSeller.php
+RewriteRule   ^user/seller/contry/company/check-info-seller$     views/sellers/checkSeller.php
+
+RewriteRule   ^user/seller/dashboard-seller$     views/sellers/dashSeller/indexSeller.php
+
+
+RewriteRule   ^pruebas$                       p.php

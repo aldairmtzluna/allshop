@@ -1,0 +1,22 @@
+.social-allshop {
+    width: 40%;
+    margin-left: 10%;
+    display: flex;
+}
+
+.info-user {
+    width: 65%;
+}
+
+.ul-info-user li {
+    margin-left: 6%;
+}
+li.li-info-user img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -23px;
+    margin-top: -1px;
+    border-radius: 50%;
+    object-fit: cover;
+}
